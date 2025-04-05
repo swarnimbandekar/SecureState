@@ -41,7 +41,7 @@ const Index = () => {
                     />
                   ))}
                 </div>
-                <span className="ml-4 text-gray-600">Trusted by 25+ state agencies</span>
+                <span className="ml-4 text-gray-600">Trusted by 25+ national agencies</span>
               </div>
             </div>
             <div className="lg:w-1/2 relative">
