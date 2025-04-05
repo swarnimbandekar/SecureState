@@ -32,8 +32,13 @@ const Index = () => {
               </div>
               <div className="mt-10 flex items-center">
                 <div className="flex -space-x-2">
-                  {[1, 2, 3, 4].map((i) => (
-                    <div key={i} className="inline-block h-8 w-8 rounded-full bg-secureblue-200 border-2 border-white"></div>
+                  {['in', 'usa', 'nz', 'it'].map((state) => (
+                    <img 
+                      key={state}
+                      src={`/images/${state}.png`}
+                      alt={`${state.toUpperCase()} State Government`}
+                      className="inline-block h-8 w-8 rounded-full object-cover border-2 border-white"
+                    />
                   ))}
                 </div>
                 <span className="ml-4 text-gray-600">Trusted by 25+ state agencies</span>
@@ -100,12 +105,16 @@ const Index = () => {
       <section className="py-12 bg-secureblue-50">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-10">
-            <p className="text-secureblue-600 font-medium">Trusted by government agencies nationwide</p>
+            <p className="text-secureblue-600 font-medium">Trusted by government agencies worldwide</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            {[1, 2, 3, 4, 5, 6].map((i) => (
-              <div key={i} className="flex items-center justify-center">
-                <div className="h-12 w-32 bg-secureblue-100 rounded animate-pulse-slow"></div>
+            {['dubai', 'usaa', 'india', 'korea', 'newzealand', 'australian'].map((state) => (
+              <div key={state} className="flex items-center justify-center">
+                <img 
+                  src={`/images/${state}.png`} 
+                  alt={`${state.toUpperCase()} State Government`}
+                  className="h-12 w-32 object-contain"
+                />
               </div>
             ))}
           </div>
