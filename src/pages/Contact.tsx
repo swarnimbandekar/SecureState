@@ -203,7 +203,7 @@ const Contact = () => {
                       <h4 className="font-medium text-gray-900">Headquarters</h4>
                       <p className="text-gray-600">
                         Bangalore<br />
-                        India
+                        Karnataka, India
                       </p>
                     </div>
                   </div>
@@ -215,8 +215,8 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-gray-900">Phone</h4>
                       <p className="text-gray-600">
-                        Main: (555) 123-4567<br />
-                        Support: (555) 987-6543
+                        Main: 123456789<br />
+                        Support: 123456789
                       </p>
                     </div>
                   </div>
@@ -228,9 +228,9 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-gray-900">Email</h4>
                       <p className="text-gray-600">
-                        General: info@securestate.gov<br />
-                        Support: support@securestate.gov<br />
-                        Sales: sales@securestate.gov
+                        General: vedhantvarnika123@gmail.com<br />
+                        Support: swarnimbandekar9@gmail.com<br />
+                        Sales: sales@securestate.domain
                       </p>
                     </div>
                   </div>
@@ -325,7 +325,7 @@ const Contact = () => {
             
             <div className="text-center mt-10">
               <p className="mb-4">Don't see your question answered here?</p>
-              <a href="#contact-form" className="btn-primary">Contact Us</a>
+              <a href="" className="btn-primary">Contact Us</a>
             </div>
           </div>
         </div>
