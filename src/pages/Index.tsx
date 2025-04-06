@@ -275,14 +275,12 @@ const Index = () => {
             <div className="lg:w-1/2">
               <div className="bg-white rounded-xl shadow-lg p-6 border border-secureblue-100">
                 <div className="relative aspect-video overflow-hidden rounded-lg bg-secureblue-100 mb-4">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="h-20 w-20 rounded-full bg-secureblue-500 flex items-center justify-center cursor-pointer">
-                      <svg className="h-10 w-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                  </div>
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/lWuKbfYKrGs?si=rG9yrcBnT6sOwZx_"
+                    title="SecureState"
+                    allow="accelerometer; encrypted-media; gyroscope"
+                  ></iframe>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">See SecureState in Action</h3>
                 <p className="text-gray-600">
